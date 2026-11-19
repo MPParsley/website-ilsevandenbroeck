@@ -1,0 +1,88 @@
+name: Build and deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Read GitHub Pages configuration
+        if: github.event_name != 'pull_request'
+        id: pages
+        uses: actions/configure-pages@v6
+      - name: Derive Pages URL
+        env:
+          REPOSITORY: ${{ github.repository }}
+          CUSTOM_SITE_URL: ${{ vars.SITE_URL }}
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          node --input-type=module <<'JS'
+          import { appendFileSync, existsSync, readFileSync } from 'node:fs';
+          const [owner, repo] = process.env.REPOSITORY.split('/');
+          const cname = existsSync('src/CNAME') ? readFileSync('src/CNAME', 'utf8').trim() : '';
+          const fallback = `https://${owner.toLowerCase()}.github.io${repo.toLowerCase() === `${owner.toLowerCase()}.github.io` ? '' : `/${repo}`}/`;
+          const url = new URL(process.env.CUSTOM_SITE_URL || (cname ? `https://${cname}/` : process.env.PAGES_BASE_URL || fallback));
+          if (url.protocol !== 'https:') throw new Error('Use an HTTPS deployment URL');
+          appendFileSync(process.env.GITHUB_ENV, `SITE_URL=${url.origin}\nPATH_PREFIX=${url.pathname.replace(/\/$/, '')}\n`);
+          JS
+      - name: Build and validate production output
+        run: npm test
+      - name: Also validate repository subdirectory deployment
+        run: |
+          PATH_PREFIX=/test-repository npm test
+          npm test
+      # Build the Pages tar directly: the composite upload-pages-artifact action
+      # still pins an upload-artifact release whose runtime is Node.js 20.
+      - name: Prepare GitHub Pages artifact
+        if: github.event_name != 'pull_request'
+        env:
+          PAGES_OUTPUT: _site
+        run: |
+          tar --dereference --hard-dereference \
+            --directory "$PAGES_OUTPUT" \
+            -cf "$RUNNER_TEMP/artifact.tar" .
+      - name: Upload GitHub Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v6
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          if-no-files-found: error
+          retention-days: 1
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

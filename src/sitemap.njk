@@ -1,0 +1,8 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{% for item in collections.pages %}<url><loc>{{ item.url | absolute }}</loc>{% for alternate in item.data.alternates %}<xhtml:link rel="alternate" hreflang="{{ alternate.lang }}" href="{{ alternate.url | absolute }}"/>{% endfor %}{% if item.data.lastUpdated %}<lastmod>{{ item.data.lastUpdated | isoDate }}</lastmod>{% endif %}</url>{% endfor %}
+</urlset>

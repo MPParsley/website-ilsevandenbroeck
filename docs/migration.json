@@ -1,0 +1,513 @@
+{
+  "sourcePageCount": 18,
+  "sourceContentPages": 15,
+  "routes": [
+    {
+      "sourcePath": "/",
+      "destination": "/"
+    },
+    {
+      "sourcePath": "/node/17",
+      "destination": "/fr/"
+    },
+    {
+      "sourcePath": "/node/3",
+      "destination": "/gebitszorg/"
+    },
+    {
+      "sourcePath": "/node/28",
+      "destination": "/tarieven/"
+    },
+    {
+      "sourcePath": "/contact",
+      "destination": "/contact/"
+    },
+    {
+      "sourcePath": "/sitemap",
+      "destination": "/sitemap/"
+    },
+    {
+      "sourcePath": "/urgences-spoedgevallen",
+      "destination": "/urgences-spoedgevallen/"
+    },
+    {
+      "sourcePath": "/rss.xml",
+      "destination": "/rss.xml"
+    },
+    {
+      "sourcePath": "/wolfstanden",
+      "destination": "/wolfstanden/"
+    },
+    {
+      "sourcePath": "/raspen",
+      "destination": "/raspen/"
+    },
+    {
+      "sourcePath": "/afwijkingen/diastema",
+      "destination": "/afwijkingen/diastema/"
+    },
+    {
+      "sourcePath": "/doppen",
+      "destination": "/doppen/"
+    },
+    {
+      "sourcePath": "/afwijkingen/eotrh",
+      "destination": "/afwijkingen/eotrh/"
+    },
+    {
+      "sourcePath": "/endoscopie",
+      "destination": "/endoscopie/"
+    },
+    {
+      "sourcePath": "/afwijkingen/perifere-caries",
+      "destination": "/afwijkingen/perifere-caries/"
+    },
+    {
+      "sourcePath": "/tandextracties",
+      "destination": "/tandextracties/"
+    },
+    {
+      "sourcePath": "/digitale-radiografie",
+      "destination": "/digitale-radiografie/"
+    },
+    {
+      "sourcePath": "/cerclage",
+      "destination": "/cerclage/"
+    }
+  ],
+  "coverage": [
+    {
+      "sourcePath": "/wolfstanden",
+      "destination": "/wolfstanden/",
+      "strategy": "complete-body",
+      "blocks": [
+        "Wolfstanden zijn kleine tandjes die voor de eerste maaltand staan. In de evolutie hebben ze hun functie verloren, ze worden niet meer gebruikt om te kauwen. Soms zijn ze scherp en kunnen ze door hun plaatsing hinderen bij het gebruik van een bit. Hierdoor worden ze meestal preventief verwijderd.",
+        "Werkwijze:",
+        "Het paard wordt gesedeerd",
+        "de wolfstandjes en omgeving worden ongevoelig gemaakt met lokale verdoving",
+        "het tandvlees wordt losgemaakt",
+        "de ligamentjes tussen tandje en tandkas worden losgemaakt",
+        "het wolfstandje wordt zonder kracht getrokken",
+        "nakijken of de wortel volledig is verwijderd",
+        "het wondje wordt ontsmet en sluit in enkele dagen",
+        "De grootte van wolfstandjes kan sterk verschillen tussen paarden. Hiernaast verschillende verwijderde wolfstanden.",
+        "Blinde wolfstand",
+        "Dit is een wolfstandje dat zich onder het tandvlees bevindt. Zeer vaak zijn ze afwijkend van ligging, richting en vorm. Wanneer zo een tandje aanwezig is, geeft het meestal hinder bij gebruik van een bit. Het overliggend tandvlees wordt dan geplet tussen het wolfstandje en het bit. Na verdoven zijn ze vlot te verwijderen.",
+        "Wortelresten",
+        "Bij het trekken van een wolfstand kan, vooral bij onvoldoende of geen verdoving, de kroon afbreken. De wortel blijft dan zitten. Als het niet direct wordt opgemerkt, groeit het wondje dicht over de scherpe wortelrest. Indien het bit hierop komt is dit uitermate pijnlijk voor het paard. Bij drukken met de vinger op deze plaats trekt het paard weg.",
+        "Wortelresten kunnen op dezelfde manier verwijderd worden als een blinde wolfstand."
+      ]
+    },
+    {
+      "sourcePath": "/raspen",
+      "destination": "/raspen/",
+      "strategy": "complete-body",
+      "blocks": [
+        "Paardentanden komen elk jaar een aantal millimeter verder door en slijten evenveel af. Soms loopt er iets fout in dit proces en krijg je haken, ramps, te hoge tanden, golfgebit, enz.",
+        "Door te raspen kan je de tanden in in zulke gevallen weer in de natuurlijke stand en vorm terugkrijgen en vooral houden. Scherpe hoeken of punten die de wangen en tong verwonden worden afgerond. Hierbij wordt goed opgelet om niet te veel tand te verwijderen, zodat de reservekroon zo lang mogelijk blijft. Hierdoor kan het paard zijn tanden tot op hoge leeftijd in een optimale conditie behouden.",
+        "Alles wordt onder continu visuele controle gedaan.",
+        "Hier volgend een voorbeeldje:",
+        "Deze pony had last met eten, een grote haak prikte bij elke kauwbeweging in zijn tandvlees.",
+        "Voor raspen: Na raspen (zelfde pony):",
+        "Scherpe emaillepunten.",
+        "Hiermee bedoelen we de scherpe punten op de buitenzijde van de tanden in de bovenkaak en aan de tongzijde in de onderkaak. Ze ontstaan wanneer de voeding meer krachtvoer en minder ruwvoer bevat, zodat het paard per dag minder tijd besteedt aan het zijdelings kauwen. Sommige paarden hebben een hoge individuele gevoeligheid waardoor ze de punten zelfs op een hoog ruwvoerdieet krijgen.",
+        "Doordat deze punten vlak naast de wangen zitten zorgen ze voor irritatie bij elke beweging: bij het eten en bij het rijden. Indien de wangen door een neusriem tegen de tanden worden gedrukt wordt de irritatie alleen maar groter. In een verder stadium veroorzaken ze wondjes (zie foto) en ulcers aan de wangen.",
+        "foto: paard met scherpe punten na een rit.",
+        "De oplossing is het regelmatig (min 1 keer per jaar) nakijken en afronden van de tanden.",
+        "foto: zelfde paard na het raspen"
+      ]
+    },
+    {
+      "sourcePath": "/doppen",
+      "destination": "/doppen/",
+      "strategy": "complete-body",
+      "blocks": [
+        "De meeste paarden wisselen vanzelf. Soms gebeurt het dat een melktand te lang ter plaatse blijft. We spreken dan van een dop. Als deze los beginnen te zitten zorgen ze voor irritatie bij het eten en het rijden. Als er voedsel tussen de dop en de definitieve kies komt te zitten geeft dit ook een zeer onaangename geur.",
+        "Doppen kunnen voorkomen op alle snijtanden en op de eerste 3 maaltanden in elke kaak.",
+        "Doppen zijn bij een routine tandverzorging makkelijk te verwijderen.",
+        "Dop op een snijtand"
+      ]
+    },
+    {
+      "sourcePath": "/afwijkingen/eotrh",
+      "destination": "/afwijkingen/eotrh/",
+      "strategy": "complete-body",
+      "blocks": [
+        "EOTRH staat voor equine odontoclastic tooth resorption and hypercementosis. Dit is een zeer pijnlijke aandoening die de snijtanden treft. De tandwortels worden hierbij door een nog onbekende oorzaak aangetast. Ze lossen op (resorptie) en reageren op de enige manier dat ze kunnen, nl.door extra cement af te zetten. Er is ook enige infectie aanwezig.",
+        "Bij vergevorderde EOTRH merkt je dat de tandwortels verdikken, het tandvlees trekt terug en vaak zijn er fistelgangetjes te zien (als paarse puntjes in het tandvlees). Het paard krijgt moeite omharde dingen, bv wortels of biet, met zijn snijtanden te bijten. Nog later komen de tanden los en breken ze af of vallen ze uit. Door de voortdurende pijn zitten de dieren ook veel minder goed in hun vel.",
+        "In een vroeg stadium is er uiterlijk bijna niets te zien. Bij verdenking van EOTRH kan er heel gemakkelijk uitsluitsel worden gegeven met een röntgenfoto. De veranderingen aan de tandwortels zijn heel typisch, nl hypercementose en resorptie.",
+        "Door het ontbreken van effectieve therapieën om het proces te stoppen of te genezen bestaat de behandeling erin de aangetaste tanden te trekken.",
+        "De paarden passen zich zeer goed aan aan het eten met minder/geen snijtanden."
+      ]
+    },
+    {
+      "sourcePath": "/endoscopie",
+      "destination": "/endoscopie/",
+      "strategy": "complete-body",
+      "blocks": [
+        "Endoscopie is een hulpmiddel om tanden echt in detail te gaan bekijken, en als hulpmiddel tijdens bepaalde behandelingen.",
+        "Hiervoor is een speciaal aangepaste endoscoop voorhanden, robuust genoeg om in de nabijheid van de tanden te gebruiken, maar ook met een optiekhoek van 90°.",
+        "Gebruik van de endoscoop ter beoordeling van een tand met infundibulum caries:",
+        "Gebruik van de endoscoop om een extractie te plannen van een gebroken tand:",
+        "Visualisatie van de pockets bij een erge periodontitis"
+      ]
+    },
+    {
+      "sourcePath": "/afwijkingen/perifere-caries",
+      "destination": "/afwijkingen/perifere-caries/",
+      "strategy": "complete-body",
+      "blocks": [
+        "In tegenstelling tot de mens bestaat de buitenste laag van de paardentand niet uit het harde email, maar uit zachter cement. Dit is daarbij ook nog eens veel gevoeliger aan de inwerking van zuren. Hierdoor wordt de paardentand veel sneller aangetast door een lage ph in de mond dan de mensentand. De cementlaag lost op zodat de emaillaag bloot komt te liggen. Hierdoor verkleint de tand zodat hij sneller afslijt en gevoeliger wordt voor fracturen. Soms verlieze de tanden dan ook het contact met elkaar en hun aanhechting op het periodontaal ligament, zodat er periodontitis en diastema's ontstaan.",
+        "De gekende oorzaken zijn een dieet van snel afbreekbare zetmelen (oa mais), onvoldoende ruwvoer waardoor er te weinig bufferend speeksel gevormd wordt, en gewoon te zuur voeder (denk aan bepaalde vormen van voordroog en silo).",
+        "Ook andere tandproblemen kunnen perifere caries veroorzaken, wanneer een deel van het gebit te weinig gebruikt wordt en hierdoor voedsel te lang in contact blijft met de tanden.",
+        "Behandeling is niet mogelijk, voorkomen wel door regelmatige tandverzorging en een passend dieet."
+      ]
+    },
+    {
+      "sourcePath": "/digitale-radiografie",
+      "destination": "/digitale-radiografie/",
+      "strategy": "complete-body",
+      "blocks": [
+        "Goede kwaliteit digitale röntgenfoto's helpen het juiste inzicht te krijgen. Hiermee kan verder dan het oppervlak van de tand gekeken worden.",
+        "Alle apparatuur is bij u ter plaatse beschikbaar, dus geen rit naar de kliniek nodig."
+      ]
+    },
+    {
+      "sourcePath": "/cerclage",
+      "destination": "/cerclage/",
+      "strategy": "complete-body",
+      "blocks": [
+        "Bij eenvoudige breuken van de kaak of avulsie van 1 of meerdere tanden kan dit met goed resultaat gegestabiliseerd worden met een cerclagetechniek",
+        "Volgend voorbeeld van een 6-jarig paard dat met zijn tand bleef hangen in het slot van zijn deur.",
+        "Na stabilisatie dmv cerclage:"
+      ]
+    },
+    {
+      "sourcePath": "/node/17",
+      "destination": "/fr/",
+      "strategy": "fully-translated-and-reworded",
+      "blocks": [
+        "Chaque cheval mérite les meilleurs soins dentaires, en respectant sa balance naturelle. Je suis vétérinaire avec une formation spécialisé en dentisterie équine, expérimenté. Je suis régulièrement des formations continues .",
+        "Je vois le cheval dans son ensemble, les relations entre la bouche, l’alimentation, les prestations,la physiologie et les autres pathologies et j’en peut vous donner des conseils sur ses thématiques.",
+        "J’ offre un travail méticuleux sur les chevaux sédatés en toute sécurité pour l’animal et les propriétaires, sans stress. Tout cela avec un équipement moderne. A la pointe de la technologie. Comme ça, aussi les chevaux 'plus difficiles' obtiennent la meilleure qualité de soins.",
+        "Pour les cas plus avancés, on les peut diagnostiquer directement sur place, grâce a la radiologie, endoscopie et echographie. Il y a aussi la possibilité de traitement médicamenteux.",
+        "Je peut offrir a mes patients entre autres:",
+        "- un entretien de routin avec équilibrage",
+        "- traitements des diastèmes et parodontite selon les dernières connaissances scientifiques",
+        "- extractions, extraction transbuccale peu invasive",
+        "- cerclage",
+        "- endodontie",
+        "- traitement des caries"
+      ],
+      "details": "Complete practice presentation in /fr/ and /fr/soins-dentaires/; original French wording corrected and merged with the full site."
+    }
+  ],
+  "assets": [
+    {
+      "originalPath": "/sites/default/files/8EB4D425-39D3-425B-A41C-4A5131734DE6.jpeg",
+      "localPath": "/assets/praktijk/da7c15-8eb4d425-39d3-425b-a41c-4a5131734de6.jpeg",
+      "width": 1200,
+      "height": 900,
+      "pages": [
+        "/",
+        "/node/17"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/web_tumbnail_perifere%20caries.jpg",
+      "localPath": "/assets/praktijk/e57c77-web-tumbnail-perifere-caries.jpg",
+      "width": 180,
+      "height": 180,
+      "pages": [
+        "/node/3",
+        "/afwijkingen/perifere-caries"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/large_dop%20voor.jpg",
+      "localPath": "/assets/praktijk/d524a7-large-dop-voor.jpg",
+      "width": 180,
+      "height": 180,
+      "pages": [
+        "/node/3",
+        "/doppen"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/wolfstand.jpg",
+      "localPath": "/assets/praktijk/7e36ca-wolfstand.jpg",
+      "width": 631,
+      "height": 417,
+      "pages": [
+        "/node/3"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/large_haak206.jpg",
+      "localPath": "/assets/praktijk/55eede-large-haak206.jpg",
+      "width": 180,
+      "height": 180,
+      "pages": [
+        "/node/3"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/diastemametgras.jpg",
+      "localPath": "/assets/praktijk/08bd59-diastemametgras.jpg",
+      "width": 180,
+      "height": 180,
+      "pages": [
+        "/node/3"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/large_EOTRH.jpg",
+      "localPath": "/assets/praktijk/30611c-large-eotrh.jpg",
+      "width": 180,
+      "height": 180,
+      "pages": [
+        "/node/3",
+        "/afwijkingen/eotrh"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/wt.JPG",
+      "localPath": "/assets/praktijk/2fb4e4-wt.jpg",
+      "width": 1200,
+      "height": 900,
+      "pages": [
+        "/wolfstanden"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/wt%20losmaken.JPG",
+      "localPath": "/assets/praktijk/e2bc51-wt-losmaken.jpg",
+      "width": 1200,
+      "height": 900,
+      "pages": [
+        "/wolfstanden"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/WTR%20verzameling.jpg",
+      "localPath": "/assets/praktijk/7cce8c-wtr-verzameling.jpg",
+      "width": 250,
+      "height": 168,
+      "pages": [
+        "/wolfstanden"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/BWT03.jpg",
+      "localPath": "/assets/praktijk/6958cb-bwt03.jpg",
+      "width": 653,
+      "height": 471,
+      "pages": [
+        "/wolfstanden"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/raspen%20haak%20206%20voor.jpg",
+      "localPath": "/assets/praktijk/cb704e-raspen-haak-206-voor.jpg",
+      "width": 600,
+      "height": 450,
+      "pages": [
+        "/raspen"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/raspen%20haak%20306%20na.jpg",
+      "localPath": "/assets/praktijk/3687b5-raspen-haak-306-na.jpg",
+      "width": 600,
+      "height": 450,
+      "pages": [
+        "/raspen"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/scherpe%20emailpunten.JPG",
+      "localPath": "/assets/praktijk/9a897c-scherpe-emailpunten.jpg",
+      "width": 1200,
+      "height": 900,
+      "pages": [
+        "/raspen"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/web_emailpunten2.jpg",
+      "localPath": "/assets/praktijk/3ab479-web-emailpunten2.jpg",
+      "width": 622,
+      "height": 411,
+      "pages": [
+        "/raspen"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/web_emailpunten_na.jpg",
+      "localPath": "/assets/praktijk/f15ef7-web-emailpunten-na.jpg",
+      "width": 622,
+      "height": 411,
+      "pages": [
+        "/raspen"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/diastema%20ezel.jpg",
+      "localPath": "/assets/praktijk/83fcb8-diastema-ezel.jpg",
+      "width": 180,
+      "height": 180,
+      "pages": [
+        "/afwijkingen/diastema"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/diastema%20opgevuld.JPG",
+      "localPath": "/assets/praktijk/341415-diastema-opgevuld.jpg",
+      "width": 1200,
+      "height": 900,
+      "pages": [
+        "/afwijkingen/diastema"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/snijtand%20dop.JPG",
+      "localPath": "/assets/praktijk/1c3b32-snijtand-dop.jpg",
+      "width": 1200,
+      "height": 900,
+      "pages": [
+        "/doppen"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/large_dop%20na.jpg",
+      "localPath": "/assets/praktijk/ff2247-large-dop-na.jpg",
+      "width": 180,
+      "height": 180,
+      "pages": [
+        "/doppen"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/EOTRH1.jpg",
+      "localPath": "/assets/praktijk/85502f-eotrh1.jpg",
+      "width": 1200,
+      "height": 1200,
+      "pages": [
+        "/digitale-radiografie",
+        "/afwijkingen/eotrh"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/EOTRH%20tand%203.JPG",
+      "localPath": "/assets/praktijk/56e986-eotrh-tand-3.jpg",
+      "width": 1200,
+      "height": 900,
+      "pages": [
+        "/afwijkingen/eotrh"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/0526315J.JPG",
+      "localPath": "/assets/praktijk/48ec9f-0526315j.jpg",
+      "width": 578,
+      "height": 434,
+      "pages": [
+        "/endoscopie"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/0447135J.JPG",
+      "localPath": "/assets/praktijk/729921-0447135j.jpg",
+      "width": 579,
+      "height": 434,
+      "pages": [
+        "/endoscopie"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/web_periodontitis.jpg",
+      "localPath": "/assets/praktijk/67f588-web-periodontitis.jpg",
+      "width": 400,
+      "height": 400,
+      "pages": [
+        "/endoscopie"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/EOTRHrx2.jpg",
+      "localPath": "/assets/praktijk/a157c7-eotrhrx2.jpg",
+      "width": 600,
+      "height": 600,
+      "pages": [
+        "/digitale-radiografie"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/bonybanner3.jpg",
+      "localPath": "/assets/praktijk/087c44-bonybanner3.jpg",
+      "width": 565,
+      "height": 180,
+      "pages": [
+        "/digitale-radiografie"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/cerclage_voor.JPG",
+      "localPath": "/assets/praktijk/3eb247-cerclage-voor.jpg",
+      "width": 1200,
+      "height": 900,
+      "pages": [
+        "/cerclage"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/cerclage%20na.JPG",
+      "localPath": "/assets/praktijk/d8750b-cerclage-na.jpg",
+      "width": 1200,
+      "height": 900,
+      "pages": [
+        "/cerclage"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/logoilsev%C3%A9t%C3%A9rinaire%20dent.jpg",
+      "localPath": "/assets/praktijk/5bddf9-logoilseveterinaire-dent.jpg",
+      "width": 1200,
+      "height": 720,
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "originalPath": "/sites/default/files/banner/paardenitaliebanner2.jpg",
+      "localPath": "/assets/praktijk/181dbf-paardenitaliebanner2.jpg",
+      "width": 1200,
+      "height": 312,
+      "pages": [
+        "/"
+      ]
+    }
+  ],
+  "exceptions": [
+    {
+      "path": "/afwijkingen/scherpe-emailpunten",
+      "reason": "Source returned HTTP 404; complete topic recovered from /raspen."
+    },
+    {
+      "path": "/afwijkingen/haken",
+      "reason": "Source returned HTTP 404; case and photographs recovered from /raspen."
+    },
+    {
+      "path": "/sites/default/files/scherpe%20emailpunten%20menu.png",
+      "reason": "Source returned HTTP 404; working clinical photograph from /raspen used for the topic."
+    },
+    {
+      "path": "/tandextracties",
+      "reason": "Source has no body text. Treatment offering retained and explained using the published introduction, EOTRH, wolfstanden and endoscopie pages."
+    },
+    {
+      "path": "/contact",
+      "reason": "Andenne replaces conflicting Mechelen address, as explicitly confirmed by the user."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+# Search engines and other crawlers may access the public website.
+User-agent: *
+Allow: /
+
+# Explicit search access; these groups do not promise inclusion or ranking.
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# User-requested visits from ChatGPT are also welcome.
+User-agent: ChatGPT-User
+Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute }}

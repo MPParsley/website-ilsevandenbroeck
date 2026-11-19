@@ -1,0 +1,21 @@
+{
+  "name": "paardentandarts-ilse-van-den-broeck",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statische Markdown-website over paardentandheelkunde en diastema",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/clean.mjs && eleventy",
+    "check": "node scripts/check.mjs",
+    "test": "npm run build && npm run check",
+    "build:sites": "npm run build && node scripts/prepare-sites.mjs",
+    "check:live": "node scripts/check-live.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.2"
+  }
+}

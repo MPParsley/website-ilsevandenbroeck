@@ -1,0 +1,70 @@
+[
+  {
+    "from": "/node/17/",
+    "to": "/fr/"
+  },
+  {
+    "from": "/node/22/",
+    "to": "/wolfstanden/"
+  },
+  {
+    "from": "/node/26/",
+    "to": "/afwijkingen/diastema/"
+  },
+  {
+    "from": "/node/27/",
+    "to": "/doppen/"
+  },
+  {
+    "from": "/node/28/",
+    "to": "/tarieven/"
+  },
+  {
+    "from": "/node/3/",
+    "to": "/gebitszorg/"
+  },
+  {
+    "from": "/node/43/",
+    "to": "/digitale-radiografie/"
+  },
+  {
+    "from": "/node/44/",
+    "to": "/afwijkingen/eotrh/"
+  },
+  {
+    "from": "/node/45/",
+    "to": "/raspen/"
+  },
+  {
+    "from": "/node/46/",
+    "to": "/endoscopie/"
+  },
+  {
+    "from": "/node/47/",
+    "to": "/tandextracties/"
+  },
+  {
+    "from": "/node/48/",
+    "to": "/afwijkingen/perifere-caries/"
+  },
+  {
+    "from": "/node/49/",
+    "to": "/cerclage/"
+  },
+  {
+    "from": "/node/5/",
+    "to": "/contact/"
+  },
+  {
+    "from": "/node/51/",
+    "to": "/urgences-spoedgevallen/"
+  },
+  {
+    "from": "/spoed/",
+    "to": "/urgences-spoedgevallen/"
+  },
+  {
+    "from": "/tarifs/",
+    "to": "/fr/tarifs/"
+  }
+]

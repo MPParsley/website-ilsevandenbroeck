@@ -1,0 +1,9 @@
+---
+pagination:
+  data: redirects
+  size: 1
+  alias: redirect
+permalink: "{{ redirect.from }}index.html"
+eleventyExcludeFromCollections: true
+---
+<!doctype html><html lang="nl-BE"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pagina verplaatst | Ilse Van Den Broeck</title><meta name="robots" content="noindex, follow"><link rel="canonical" href="{{ redirect.to | absolute }}"><meta http-equiv="refresh" content="0;url={{ redirect.to | local }}"></head><body><p>Deze pagina is verplaatst.</p><a href="{{ redirect.to | local }}">Ga naar de pagina</a></body></html>

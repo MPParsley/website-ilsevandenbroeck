@@ -1,0 +1,78 @@
+[
+  {
+    "nl": "/",
+    "fr": "/fr/"
+  },
+  {
+    "nl": "/gebitszorg/",
+    "fr": "/fr/soins-dentaires/"
+  },
+  {
+    "nl": "/contact/",
+    "fr": "/fr/contact/"
+  },
+  {
+    "nl": "/tarieven/",
+    "fr": "/fr/tarifs/"
+  },
+  {
+    "nl": "/urgences-spoedgevallen/",
+    "fr": "/fr/urgences/"
+  },
+  {
+    "nl": "/privacy/",
+    "fr": "/fr/confidentialite/"
+  },
+  {
+    "nl": "/sitemap/",
+    "fr": "/fr/plan-du-site/"
+  },
+  {
+    "nl": "/wolfstanden/",
+    "fr": "/fr/dents-de-loup/"
+  },
+  {
+    "nl": "/raspen/",
+    "fr": "/fr/nivellement-dentaire/"
+  },
+  {
+    "nl": "/doppen/",
+    "fr": "/fr/coiffes/"
+  },
+  {
+    "nl": "/digitale-radiografie/",
+    "fr": "/fr/radiographie-numerique/"
+  },
+  {
+    "nl": "/endoscopie/",
+    "fr": "/fr/endoscopie/"
+  },
+  {
+    "nl": "/cerclage/",
+    "fr": "/fr/cerclage/"
+  },
+  {
+    "nl": "/tandextracties/",
+    "fr": "/fr/extractions-dentaires/"
+  },
+  {
+    "nl": "/afwijkingen/diastema/",
+    "fr": "/fr/diasteme/"
+  },
+  {
+    "nl": "/afwijkingen/eotrh/",
+    "fr": "/fr/eotrh/"
+  },
+  {
+    "nl": "/afwijkingen/perifere-caries/",
+    "fr": "/fr/caries-peripheriques/"
+  },
+  {
+    "nl": "/afwijkingen/haken/",
+    "fr": "/fr/crochets/"
+  },
+  {
+    "nl": "/afwijkingen/scherpe-emailpunten/",
+    "fr": "/fr/surdents/"
+  }
+]

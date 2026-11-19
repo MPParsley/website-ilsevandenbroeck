@@ -1,0 +1,13 @@
+---
+permalink: /rss.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<title>Paardentandarts {{ site.name }}</title>
+<link>{{ '/' | absolute }}</link>
+<description>Praktijkinformatie en gebitszorg voor paarden.</description>
+<language>nl-be</language>
+<atom:link href="{{ '/rss.xml' | absolute }}" rel="self" type="application/rss+xml"/>
+{% for item in collections.pages %}{% if item.data.lang != "fr-BE" %}<item><title>{{ item.data.title }}</title><link>{{ item.url | absolute }}</link><guid isPermaLink="true">{{ item.url | absolute }}</guid><description>{{ item.data.description }}</description></item>{% endif %}{% endfor %}
+</channel></rss>
