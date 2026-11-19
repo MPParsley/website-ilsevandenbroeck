@@ -3,6 +3,7 @@ if (!/^https?:\/\/[^/]+$/.test(origin)) throw new Error('SITE_URL moet alleen de
 export default {
   url: origin,
   name: 'Ilse Van Den Broeck',
+  homeImage: { path: '/assets/praktijk/ilsevandenbroeck.jpeg', width: 1004, height: 1504 },
   profession: 'Dierenarts · Paardentandheelkunde',
   phone: '+32 499 32 77 92',
   phoneLink: '+32499327792',

@@ -35,7 +35,7 @@ Open de URL die Eleventy toont, normaal `http://localhost:8080`. De bestanden in
 | `src/_data/languages.json` | Negentien vaste koppelingen tussen Nederlandse en Franse pagina’s |
 | `src/_data/site.js` | Centrale contactgegevens en navigatie |
 | `src/_data/redirects.json` | Verwijzingen van eerdere paginapaden naar de huidige pagina’s |
-| `src/assets/praktijk/` | 31 lokaal opgeslagen foto’s en het praktijklogo |
+| `src/assets/praktijk/` | Lokaal opgeslagen praktijkbeelden, logo en de nieuwe homepagefoto |
 | `src/_includes/` | Gedeelde HTML-opmaak en beeldengalerij |
 | `src/assets/style.css` | Vormgeving en mobiele weergave |
 
@@ -127,3 +127,7 @@ De statische uitvoer wordt rechtstreeks in `artifact.tar` verpakt en als artifac
 Vervang bij het bijwerken van je repository ook **`.github/workflows/pages.yml`** door de versie uit deze zip. Verwijder eventuele oude, dubbele Pages-workflows uit `.github/workflows/`; anders kan GitHub nog waarschuwingen uit die andere workflow tonen. Zet bij Settings → Pages de bron op GitHub Actions. Deze zip is lokaal gecontroleerd; er is vanuit deze werkomgeving geen workflowrun in jouw GitHub-repository gestart.
 
 Officiële actiegegevens: [checkout](https://github.com/actions/checkout/blob/v5/action.yml), [setup-node](https://github.com/actions/setup-node/blob/v6/action.yml), [configure-pages](https://github.com/actions/configure-pages/blob/v6/action.yml), [upload-artifact](https://github.com/actions/upload-artifact/blob/v6/action.yml) en [deploy-pages](https://github.com/actions/deploy-pages/blob/v5/action.yml).
+
+## Homepagefoto
+
+Beide homepages gebruiken `src/assets/praktijk/ilsevandenbroeck.jpeg`, op verzoek van de opdrachtgever gedownload op 19 november 2026. Het originele JPEG-bestand is ongewijzigd opgenomen. De foto wordt volledig als portret getoond, met behoud van de oorspronkelijke logo’s en credits. Afmetingen en pad staan centraal in `site.homeImage`; alt-teksten zijn beschikbaar in beide talen. Ook de Open Graph-afbeelding van beide homepages gebruikt deze foto. De 31 eerdere migratiebeelden blijven als historisch bronmateriaal beschikbaar; de nieuwe homepagefoto is aanvullend.
