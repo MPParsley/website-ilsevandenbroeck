@@ -103,7 +103,7 @@ const sitemap = await readFile(path.join(root, 'sitemap.xml'), 'utf8');
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => decode(m[1]));
 assert.equal(new Set(urls).size, urls.length, 'No duplicate sitemap entries');
 assert.equal(urls.length, indexed.size, 'All and only indexable pages in sitemap');
-assert.equal(languages.length, 19, 'Nineteen complete language pairs');
+assert.equal(languages.length, 20, 'Twenty complete language pairs');
 assert.equal(indexed.size, languages.length * 2, 'Every page has a complete Dutch and French version');
 for (const [route] of indexed) assert.ok(urls.includes(publicBase + route), 'In sitemap: ' + route);
 for (const record of migration.routes) {
@@ -176,4 +176,4 @@ assert.ok(articleDate && sitemap.includes(`<lastmod>${articleDate}</lastmod>`));
 for (const bot of ['Googlebot', 'bingbot', 'OAI-SearchBot', 'ChatGPT-User']) assert.ok(robots.includes(`User-agent: ${bot}\nAllow: /`));
 await stat(path.join(root, '.nojekyll'));
 assert.ok((await readFile(path.join(root, 'rss.xml'), 'utf8')).includes(publicBase + '/afwijkingen/diastema/'));
-console.log(`OK: ${indexed.size} indexable pages, ${redirects.length + 1} redirects, 31 local imported images, original text coverage, bilingual prices, 19 reciprocal language pairs and no obsolete website URLs; prefix "${prefix || '/'}".`);
+console.log(`OK: ${indexed.size} indexable pages, ${redirects.length + 1} redirects, 31 local imported images, original text coverage, bilingual prices, ${languages.length} reciprocal language pairs and no obsolete website URLs; prefix "${prefix || '/'}".`);

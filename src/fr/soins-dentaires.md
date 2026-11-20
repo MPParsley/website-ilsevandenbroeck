@@ -49,7 +49,9 @@ Le cabinet propose des extractions dentaires, notamment des extractions transbuc
 
 ### Endodontie et traitement des caries
 
-L’endodontie et le traitement des caries font également partie des soins proposés. Les possibilités dépendent des tissus dentaires atteints et des résultats de l’examen. [En savoir plus sur les caries périphériques]({{ '/fr/caries-peripheriques/' | local }}).
+L’endodontie et le traitement des caries font également partie des soins proposés. Les possibilités dépendent des tissus dentaires atteints et des résultats de l’examen.
+
+[Caries infundibulaires et restauration par obturation]({{ '/fr/caries-infundibulaires/' | local }}) · [Caries périphériques]({{ '/fr/caries-peripheriques/' | local }})
 
 ## Examens complémentaires sur place
 
