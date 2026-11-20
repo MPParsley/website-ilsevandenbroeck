@@ -1,12 +1,12 @@
 import assert from 'node:assert/strict';
 import { readdir, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
+import { hasObsoleteWebsiteReference } from './website-references.mjs';
 const root = path.resolve('_site');
 const base = '/' + (process.env.PATH_PREFIX || '').replace(/^\/+|\/+$/g, '');
 const prefix = base === '/' ? '' : base;
 const origin = (process.env.SITE_URL || 'https://ilse-paardentandarts-diastema.mich-bv-4396.chatgpt.site').replace(/\/$/, '');
 const publicBase = origin + prefix;
-const obsoleteOrigin = /(?:https?:)?\/\/(?:www\.)?ilsevandenbroeck\.be\b/i;
 const migration = JSON.parse(await readFile('docs/migration.json', 'utf8'));
 const redirects = JSON.parse(await readFile('src/_data/redirects.json', 'utf8'));
 const languages = JSON.parse(await readFile('src/_data/languages.json', 'utf8'));
@@ -30,7 +30,7 @@ function normalize(text) {
 }
 async function localTarget(raw, label) {
   const value = decode(raw);
-  assert.ok(!obsoleteOrigin.test(value), label + ': no links to obsolete website');
+  assert.ok(!hasObsoleteWebsiteReference(value, origin), label + ': no links to obsolete website');
   if (/^(https?:|mailto:|tel:|data:)/.test(value)) return;
   const [target, hash] = value.split('#');
   if (!target) return;
@@ -47,7 +47,7 @@ async function localTarget(raw, label) {
 await walk(root);
 for (const file of files) {
   const label = path.relative(root, file);
-  if (/\.(?:html|xml|txt|css|svg)$/.test(file)) assert.ok(!obsoleteOrigin.test(await readFile(file, 'utf8')), label + ': no obsolete website references');
+  if (/\.(?:html|xml|txt|css|svg)$/.test(file)) assert.ok(!hasObsoleteWebsiteReference(await readFile(file, 'utf8'), origin), label + ': no obsolete website references');
   if (!file.endsWith('.html')) continue;
   const html = await readFile(file, 'utf8');
   assert.match(html, /<html lang="(?:nl|fr)-BE">/, label + ': language');
