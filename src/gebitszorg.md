@@ -50,7 +50,7 @@ Het aanbod omvat tandextracties en minimaal invasieve transbuccale extracties. B
 
 Ook endodontie en de behandeling van cariës maken deel uit van het aanbod. De mogelijkheden hangen af van het aangetaste tandweefsel en de bevindingen bij onderzoek.
 
-[Infundibulaire cariës en het vullen van een kies]({{ '/afwijkingen/infundibulaire-caries/' | local }}) · [Perifere cariës]({{ '/afwijkingen/perifere-caries/' | local }})
+[Een kies bij je paard laten vullen bij infundibulaire cariës]({{ '/afwijkingen/infundibulaire-caries/' | local }}) · [Perifere cariës]({{ '/afwijkingen/perifere-caries/' | local }})
 
 ## Aanvullend onderzoek ter plaatse
 

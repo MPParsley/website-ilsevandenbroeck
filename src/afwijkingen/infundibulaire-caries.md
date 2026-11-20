@@ -1,12 +1,12 @@
 ---
 layout: "base.njk"
 tags: "page"
-title: "Infundibulaire cariës bij paarden"
+title: "Infundibulaire cariës bij paarden — een kies vullen"
 shortTitle: "Infundibulaire cariës"
 heading: "Infundibulaire cariës bij paarden"
 eyebrow: "Onderzoek & behandeling"
-intro: "Infundibulaire cariës kan een kies verzwakken. Vroege opsporing maakt het mogelijk om de aangetaste kies tijdig te vullen."
-description: "Wat is infundibulaire cariës bij paarden? Lees hoe het ontstaat, welke gevolgen het kan hebben en hoe een kies kan worden gerestaureerd."
+intro: "Infundibulaire cariës kan een bovenkies van je paard verzwakken. Als we de aantasting vroeg ontdekken, kunnen we beoordelen of we de kies kunnen vullen."
+description: "Wat is infundibulaire cariës bij paarden? Lees wanneer een aangetaste tand of kies bij je paard gevuld kan worden en bekijk foto’s van de behandeling."
 lang: "nl-BE"
 alternateLanguage: "/fr/caries-infundibulaires/"
 alternates: [{"lang":"nl-BE","url":"/afwijkingen/infundibulaire-caries/"},{"lang":"fr-BE","url":"/fr/caries-infundibulaires/"}]
@@ -24,9 +24,9 @@ In een vroeg stadium vertoont het paard meestal geen symptomen. Als de cariës d
 
 <figure class="clinical-figure"><img src="{{ '/assets/praktijk/infundibulaire-caries-verzwakte-kies.jpg' | local }}" alt="Paardenkies die door infundibulaire cariës is verzwakt" width="900" height="818" loading="lazy"><figcaption>Een door cariës verzwakte kies.</figcaption></figure>
 
-## Hoe behandelen we het?
+## Kun je een tand of kies bij een paard vullen?
 
-Vroege opsporing bij een gebitsonderzoek is belangrijk. Afhankelijk van de ernst van de aantasting kunnen we de kies tijdig restaureren door de aangetaste holte te vullen.
+Ja, bij infundibulaire cariës kunnen we in geschikte gevallen de aangetaste kies vullen. Tijdens het gebitsonderzoek beoordelen we hoe ver de cariës gevorderd is en of een vulling mogelijk is. Bij zo’n tandrestauratie vullen we de aangetaste holte in de kies.
 
 <figure class="clinical-figure"><img src="{{ '/assets/praktijk/infundibulaire-caries-tijdens-restauratie.jpg' | local }}" alt="Paardenkies tijdens de restauratie van het aangetaste infundibulum" width="1920" height="1080" loading="lazy"><figcaption>Tijdens de restauratie.</figcaption></figure>
 

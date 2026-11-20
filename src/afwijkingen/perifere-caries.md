@@ -22,6 +22,8 @@ Ook andere tandproblemen kunnen perifere caries veroorzaken, wanneer een deel va
 
 Behandeling is niet mogelijk, voorkomen wel door regelmatige tandverzorging en een passend dieet.
 
+Bij [infundibulaire cariës]({{ '/afwijkingen/infundibulaire-caries/' | local }}) zit de aantasting in een instulping in het kauwvlak van een bovenkies. In sommige gevallen kunnen we die kies vullen.
+
 ## Een afspraak voor je paard
 
 [Neem contact op met de praktijk]({{ '/contact/' | local }}) of [bekijk de tarieven en voorbereiding]({{ '/tarieven/' | local }}).

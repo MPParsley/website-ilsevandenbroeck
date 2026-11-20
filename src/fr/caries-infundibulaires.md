@@ -1,12 +1,12 @@
 ---
 layout: "base.njk"
 tags: "page"
-title: "Caries infundibulaires chez le cheval"
+title: "Caries infundibulaires chez le cheval — restauration dentaire"
 shortTitle: "Caries infundibulaires"
 heading: "Les caries infundibulaires chez le cheval"
 eyebrow: "Examen & traitement"
-intro: "Une carie infundibulaire peut fragiliser une dent. Un dépistage précoce permet de restaurer la dent atteinte à temps."
-description: "Comprendre les caries infundibulaires chez le cheval, leurs conséquences et la restauration de la dent par obturation."
+intro: "Une carie infundibulaire peut fragiliser une dent du cheval. Un dépistage précoce permet d’évaluer si la dent peut être restaurée par une obturation."
+description: "Découvrez les caries chez le cheval et quand une dent atteinte de carie infundibulaire peut être restaurée par obturation, aussi appelée plombage."
 lang: "fr-BE"
 permalink: "/fr/caries-infundibulaires/"
 alternateLanguage: "/afwijkingen/infundibulaire-caries/"
@@ -25,9 +25,9 @@ Au début, le cheval ne présente généralement aucun symptôme. Lorsque la car
 
 <figure class="clinical-figure"><img src="{{ '/assets/praktijk/infundibulaire-caries-verzwakte-kies.jpg' | local }}" alt="Dent de cheval fragilisée par une carie infundibulaire" width="900" height="818" loading="lazy"><figcaption>Une dent fragilisée par la carie.</figcaption></figure>
 
-## Comment la traitons-nous ?
+## Peut-on faire un plombage sur une dent de cheval ?
 
-Un dépistage précoce lors d’un examen dentaire est important. Selon la gravité de la lésion, nous pouvons restaurer la dent à temps en obturant la cavité cariée.
+Oui, dans certains cas de carie infundibulaire. Lors de l’examen, nous évaluons l’étendue de la lésion pour déterminer si une obturation, aussi appelée plombage, est possible. Cette restauration dentaire consiste à combler la cavité de la dent atteinte.
 
 <figure class="clinical-figure"><img src="{{ '/assets/praktijk/infundibulaire-caries-tijdens-restauratie.jpg' | local }}" alt="Dent de cheval pendant la restauration de l’infundibulum atteint" width="1920" height="1080" loading="lazy"><figcaption>Pendant la restauration.</figcaption></figure>
 

@@ -23,6 +23,8 @@ D’autres problèmes dentaires peuvent également favoriser les caries périph�
 
 Un traitement curatif n’est pas possible ; la prévention repose sur des soins dentaires réguliers et une alimentation adaptée.
 
+La [carie infundibulaire]({{ '/fr/caries-infundibulaires/' | local }}) touche un repli de la surface masticatoire d’une dent supérieure. Dans certains cas, la dent peut être restaurée par obturation.
+
 ## Un rendez-vous pour votre cheval
 
 [Contactez le cabinet]({{ '/fr/contact/' | local }}) ou [consultez les tarifs et la préparation]({{ '/fr/tarifs/' | local }}).
