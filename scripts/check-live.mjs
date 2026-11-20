@@ -1,6 +1,7 @@
 import { spawnSync } from 'node:child_process';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import { hasObsoleteWebsiteReference } from './website-references.mjs';
 const base = (process.env.SITE_URL || 'https://ilse-paardentandarts-diastema.mich-bv-4396.chatgpt.site').replace(/\/$/, '');
 const prefix = (process.env.PATH_PREFIX || '').replace(/\/$/, '');
 const origin = base + prefix;
@@ -31,7 +32,7 @@ for (const url of urls) {
   assert.ok(html.includes(`rel="canonical" href="${url}"`), 'Self canonical');
   assert.ok(!/noindex|nosnippet|data-nosnippet/.test(html), 'No HTML indexing blockers');
   assert.match(html, /<h1\b/);
-  assert.ok(!/(?:https?:)?\/\/(?:www\.)?ilsevandenbroeck\.be\b/i.test(html), 'No obsolete website URLs');
+  assert.ok(!hasObsoleteWebsiteReference(html, base), 'No obsolete website URLs');
   assert.match(html, /application\/ld\+json/);
   const route = url.slice(origin.length);
   const pair = languages.find(p => p.nl === route || p.fr === route);
