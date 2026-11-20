@@ -124,7 +124,8 @@ const allHTML = [...indexed.values()].join('\n');
 assert.equal(migration.assets.length, 31, 'All 31 accessible editorial assets copied');
 for (const asset of migration.assets) {
   await stat(path.join(root, asset.localPath));
-  assert.ok(allHTML.includes(prefix + asset.localPath), 'Imported asset is actually used: ' + asset.localPath);
+  const displayedPath = asset.replacedBy ?? asset.localPath;
+  assert.ok(allHTML.includes(prefix + displayedPath), 'Imported asset or its replacement is actually used: ' + displayedPath);
 }
 const fees = normalize(indexed.get('/tarieven/'));
 for (const text of ['70', '20 65 per uur', 'Gebitsverzorging per paard 135', '1 5', '4 5', '135', '220', 'maximaal 10 meter', '3 uur', '1 ml detomidine']) assert.ok(fees.includes(text), 'Preserved preparation or fee detail ' + text);

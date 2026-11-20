@@ -6,7 +6,7 @@ title: "Diastème chez le cheval — symptômes et traitement"
 shortTitle: "Diastème chez le cheval"
 seoTitle: "Diastème chez le cheval — traitement"
 article: true
-lastUpdated: "2026-11-18"
+lastUpdated: "2026-11-20"
 topic: "Diastème chez le cheval"
 sources: ["https://pubmed.ncbi.nlm.nih.gov/23662996/"]
 heading: "Les diastèmes chez le cheval"
@@ -49,7 +49,7 @@ La pression exercée lors de la mastication peut enfoncer les aliments de plus e
 
 Cette page concerne les diastèmes **chez le cheval**, et non l’espace entre les incisives chez l’être humain.
 
-<figure class="clinical-figure"><img src="{{ '/assets/praktijk/83fcb8-diastema-ezel.jpg' | local }}" alt="Diastème entre les dents — vue clinique" width="180" height="180" loading="lazy"><figcaption>Diastème entre les dents — vue clinique</figcaption></figure>
+<figure class="clinical-figure"><img src="{{ '/assets/praktijk/diastema-vastzittend-voer.jpg' | local }}" alt="Des débris végétaux verts sont coincés entre deux dents jugales d’un cheval" width="1920" height="1080" loading="lazy"><figcaption>Des aliments coincés dans un diastème entre deux dents.</figcaption></figure>
 
 <h2 id="symptomes">Comment reconnaître un diastème chez le cheval ?</h2>
 
@@ -77,11 +77,11 @@ La vétérinaire examine l’ensemble de la dentition, et pas seulement l’espa
 
 L’examen précise la localisation et la gravité du problème. Les aliments coincés sont retirés et l’espace est soigneusement nettoyé et rincé. La sédation et, si nécessaire, une anesthésie locale permettent de travailler avec précision. La vétérinaire détermine ce qui est nécessaire pour votre cheval.
 
+<figure class="clinical-figure"><img src="{{ '/assets/praktijk/diastema-voor-reiniging.jpg' | local }}" alt="Des fibres alimentaires sont coincées en profondeur entre deux dents jugales d’un cheval" width="1920" height="1080" loading="lazy"><figcaption>Un diastème avant nettoyage, avec des débris alimentaires entre les dents.</figcaption></figure>
+
 ### 2. Comblement de l’espace
 
 Dans les cas appropriés, le diastème peut être comblé afin d’empêcher de nouveaux aliments de s’y accumuler. Le choix dépend notamment de la forme et de l’état de l’espace ainsi que des dents environnantes.
-
-<figure class="clinical-figure"><img src="{{ '/assets/praktijk/341415-diastema-opgevuld.jpg' | local }}" alt="Diastème après comblement" width="1200" height="900" loading="lazy"><figcaption>Diastème après comblement</figcaption></figure>
 
 ### 3. Élargissement contrôlé
 

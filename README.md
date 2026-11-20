@@ -104,7 +104,7 @@ npm test           # Schone build en controles
 npm run check:live # Publieke HTTP-controles op de live site
 ```
 
-De bouwcontrole onderzoekt alle lokale links en ankers, metadata, talen, canonical-URL’s, afbeeldingen, JSON-LD, FAQ, sitemap, RSS, oude paginapaden, overgenomen tekstblokken en belangrijke tariefvoorwaarden. Alle 31 geïmporteerde beelden moeten bestaan én werkelijk gebruikt worden. Een regressiecontrole voorkomt dat websitelinks naar het vorige domein terugkomen.
+De bouwcontrole onderzoekt alle lokale links en ankers, metadata, talen, canonical-URL’s, afbeeldingen, JSON-LD, FAQ, sitemap, RSS, oude paginapaden, overgenomen tekstblokken en belangrijke tariefvoorwaarden. Alle 31 geïmporteerde beelden moeten beschikbaar blijven. De site toont het oorspronkelijke beeld of de vervanger in `docs/migration.json`. Een regressiecontrole voorkomt dat websitelinks naar het vorige domein terugkomen.
 
 De live controle haalt alle indexeerbare pagina’s en alle geïmporteerde beelden zonder login op. Ook worden verzoeken met namen van zoekcrawlers gedaan. Een nagebootste useragent bewijst niet dat de echte crawler vanaf zijn eigen netwerk is langsgekomen; indexering en zoekposities worden hiermee niet vastgesteld.
 
