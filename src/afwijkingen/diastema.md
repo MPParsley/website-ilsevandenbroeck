@@ -6,7 +6,7 @@ title: "Diastema bij paarden — symptomen en behandeling"
 shortTitle: "Diastema bij paarden"
 seoTitle: "Diastema bij paarden — behandeling"
 article: true
-lastUpdated: "2026-11-17"
+lastUpdated: "2026-11-20"
 topic: "Diastema bij paarden"
 sources: ["https://pubmed.ncbi.nlm.nih.gov/23662996/"]
 heading: "Diastema bij paarden"
@@ -51,7 +51,7 @@ Deze pagina gaat over diastema **bij paarden**, niet over een spleetje tussen de
 
 
 
-<figure class="clinical-figure"><img src="{{ '/assets/praktijk/83fcb8-diastema-ezel.jpg' | local }}" alt="Diastema tussen de tanden — klinische afbeelding 1" width="180" height="180" loading="lazy"><figcaption>Diastema tussen de tanden — klinische afbeelding 1</figcaption></figure>
+<figure class="clinical-figure"><img src="{{ '/assets/praktijk/diastema-vastzittend-voer.jpg' | local }}" alt="Groen voer zit vast in de ruimte tussen twee paardenkiezen" width="1920" height="1080" loading="lazy"><figcaption>Vastzittend voer in een diastema tussen twee kiezen.</figcaption></figure>
 
 
 <h2 id="symptomen">Hoe herken je diastema bij een paard?</h2>
@@ -80,13 +80,11 @@ De dierenarts beoordeelt niet alleen de opening, maar het hele gebit. Zo kan de 
 
 Het onderzoek brengt de plaats en de ernst van het probleem in kaart. Vastzittend voedsel wordt verwijderd en de ruimte wordt grondig gereinigd en gespoeld. Sedatie en, wanneer nodig, plaatselijke verdoving helpen om zorgvuldig te kunnen werken. De dierenarts bepaalt wat voor jouw paard nodig is.
 
+<figure class="clinical-figure"><img src="{{ '/assets/praktijk/diastema-voor-reiniging.jpg' | local }}" alt="Vezelige voerresten zitten diep tussen twee paardenkiezen" width="1920" height="1080" loading="lazy"><figcaption>Een diastema vóór reiniging, met voerresten tussen de kiezen.</figcaption></figure>
+
 ### 2. Opvullen van de ruimte
 
 In geschikte gevallen kan het diastema worden opgevuld. Het doel is te verhinderen dat nieuw voedsel in de ruimte wordt geperst. Of opvullen passend is, hangt onder meer af van de vorm en toestand van de opening en de omliggende tanden.
-
-
-
-<figure class="clinical-figure"><img src="{{ '/assets/praktijk/341415-diastema-opgevuld.jpg' | local }}" alt="Opgevuld diastema — klinische afbeelding 2" width="1200" height="900" loading="lazy"><figcaption>Opgevuld diastema — klinische afbeelding 2</figcaption></figure>
 
 
 ### 3. Gecontroleerd verbreden
