@@ -18,7 +18,7 @@ export default {
   facebook: 'https://www.facebook.com/dierenartsilsevandenbroeck',
   personalFacebook: 'https://www.facebook.com/ilse.vandenbroeck.18',
   navigationFr: [{"title": "Accueil", "url": "/fr/"}, {"title": "Diastèmes", "url": "/fr/diasteme/"}, {"title": "Soins dentaires", "url": "/fr/soins-dentaires/"}, {"title": "Tarifs", "url": "/fr/tarifs/"}, {"title": "Contact", "url": "/fr/contact/"}],
-  treatmentsFr: [{"title": "Diastèmes", "url": "/fr/diasteme/"}, {"title": "Dents de loup", "url": "/fr/dents-de-loup/"}, {"title": "Nivellement dentaire", "url": "/fr/nivellement-dentaire/"}, {"title": "Surdents", "url": "/fr/surdents/"}, {"title": "Crochets", "url": "/fr/crochets/"}, {"title": "Coiffes", "url": "/fr/coiffes/"}, {"title": "EOTRH", "url": "/fr/eotrh/"}, {"title": "Endoscopie", "url": "/fr/endoscopie/"}, {"title": "Caries périphériques", "url": "/fr/caries-peripheriques/"}, {"title": "Extractions dentaires", "url": "/fr/extractions-dentaires/"}, {"title": "Radiographie numérique", "url": "/fr/radiographie-numerique/"}, {"title": "Cerclage", "url": "/fr/cerclage/"}],
+  treatmentsFr: [{"title": "Diastèmes", "url": "/fr/diasteme/"}, {"title": "Dents de loup", "url": "/fr/dents-de-loup/"}, {"title": "Nivellement dentaire", "url": "/fr/nivellement-dentaire/"}, {"title": "Surdents", "url": "/fr/surdents/"}, {"title": "Crochets", "url": "/fr/crochets/"}, {"title": "Coiffes", "url": "/fr/coiffes/"}, {"title": "EOTRH", "url": "/fr/eotrh/"}, {"title": "Endoscopie", "url": "/fr/endoscopie/"}, {"title": "Caries périphériques", "url": "/fr/caries-peripheriques/"}, {"title": "Caries infundibulaires", "url": "/fr/caries-infundibulaires/"}, {"title": "Extractions dentaires", "url": "/fr/extractions-dentaires/"}, {"title": "Radiographie numérique", "url": "/fr/radiographie-numerique/"}, {"title": "Cerclage", "url": "/fr/cerclage/"}],
   treatments: [
     { title: 'Diastema', url: '/afwijkingen/diastema/' },
     { title: 'Wolfstanden', url: '/wolfstanden/' },
@@ -29,6 +29,7 @@ export default {
     { title: 'EOTRH', url: '/afwijkingen/eotrh/' },
     { title: 'Endoscopie', url: '/endoscopie/' },
     { title: 'Perifere cariës', url: '/afwijkingen/perifere-caries/' },
+    { title: 'Infundibulaire cariës', url: '/afwijkingen/infundibulaire-caries/' },
     { title: 'Tandextracties', url: '/tandextracties/' },
     { title: 'Digitale radiografie', url: '/digitale-radiografie/' },
     { title: 'Cerclage', url: '/cerclage/' }
